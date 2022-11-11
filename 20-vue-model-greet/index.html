@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vue Live coding</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js" defer></script>
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+
+	<div id="root">
+		<label for="first-name">First Name</label>
+		<input type="text" id="first-name" v-model="firstName">
+
+		<label for="last-name">Last Name</label>
+		<input type="text" id="last-name" v-model="lastName">
+
+		<p>Ciao {{ firstName }} {{ lastName }} </p>
+	</div>
+</body>
+</html>

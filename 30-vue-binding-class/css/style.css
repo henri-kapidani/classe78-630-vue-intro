@@ -1,0 +1,13 @@
+* {
+	margin: auto;
+	padding: auto;
+	box-sizing: border-box;
+}
+
+.rosso {
+	color: red;
+}
+
+.blu {
+	color: blue;
+}
